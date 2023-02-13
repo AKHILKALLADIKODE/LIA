@@ -1,0 +1,151 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+.baner-img{
+	background-image: url('../img/baner.png');
+	objectv
+}
+.nav-btn{
+	background: #00A87F;
+	width: 165px;
+	height: 54px;
+}
+.brand-c{
+	color: #00A87F;
+}
+.brand-bg{
+	background-color:  #00A87F;
+}
+.baner-btn{
+	background: #00A87F;
+	border: 0px;
+	border-radius: 5px;
+}
+.baner-box{
+	background: rgba(152, 152, 152, 0.58);
+	border: 1px solid rgba(255, 255, 255, 0.27);
+	backdrop-filter: blur(3px);
+	border-radius: 10px 0px 0px 10px;
+	width: 432px;
+}
+.baner-box1{
+	background: linear-gradient(0deg, rgba(0, 168, 127, 0.29), rgba(0, 168, 127, 0.29)), url(.jpg), rgba(255, 255, 255, 0.15);
+	border-radius: 0px 10px 10px 0px;
+	width: 432px;
+}
+.baner-bottom{
+	display: flex;
+	justify-content: end;
+}
+.redmor-btn{
+	background: #333333;
+	border-radius: 5px;
+	border: 0;
+}
+.bg-img1{
+	background-image: url('../img/sec-2img.png') ;
+	width: 100%;
+	object-fit: cover;
+}
+.sec-2box{
+
+	background: #00a87f7a;
+	width: 116%;
+}
+.sce-box3{
+	background-color: #fff;
+}
+.blu-box{
+	background: #144D92;
+	border-radius: 22px;
+}
+
+
+.product1{
+
+	background: #00A87F;
+	border-radius: 0px 0px 10px 10px;
+}
+.slick-dots{
+	display: none !important;
+}
+.slick-prev {
+	left: 1253px; 
+	background: #144D92;
+	top: 60% !important;
+	 padding: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 63%;
+}
+.slick-next {
+	
+	   background: #144D92;
+    top: 35% !important;
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65%;
+    right: -45px;
+}
+.slick-prev:hover {
+	background: #144D92!important;
+}
+.slick-next:hover {
+	
+	background: #144D92!important;
+}
+.box-white{
+	background: #ffff;
+	margin-left: -112px;
+}
+.hr{
+	height: 1px;
+}
+.border-b{
+	    border-bottom: 1px solid #fff;
+}
+@media only screen and (max-width: 600px) {
+	.baner-img {
+		width: 100%;
+	}
+	.baner-bottom{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.baner-box{
+		background: rgba(152, 152, 152, 0.58);
+		border: 1px solid rgba(255, 255, 255, 0.27);
+		backdrop-filter: blur(3px);
+		border-radius: 10px 0px 0px 10px;
+		width: 100%;
+	}
+	.baner-box1{
+		background: linear-gradient(0deg, rgba(0, 168, 127, 0.29), rgba(0, 168, 127, 0.29)), url(.jpg), rgba(255, 255, 255, 0.15);
+		border-radius: 0px 10px 10px 0px;
+		width: 100%;
+	}
+	.bg-img1{
+		width: 100%;
+	}
+	.sec-2box{
+		width: 100%;
+	}
+	.slick-prev {
+		display: none!important;
+
+	}
+	.slick-next{
+		display: none!important;
+	}
+	.box-white{
+		margin-left: 0px !important;
+		width: 100% !important;
+	} 
+}
